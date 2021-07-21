@@ -1,0 +1,29 @@
+.box{
+    text-align: center;
+     margin: 15px;    
+}
+[name='abcd']{
+     color: blue;
+     text-align: center;
+     margin: 15px;
+}
+input{
+     border-style: solid;
+     border-color: green;
+     margin: 15px;
+}
+select{
+     border-style: solid;
+     border-color: green;
+     margin: 15px;
+}
+textarea{
+    border-style: solid;
+    border-color: green;
+    margin: 15px;  
+}
+button{
+     background-color: blue;
+     color: white;
+     margin: 15px;
+}

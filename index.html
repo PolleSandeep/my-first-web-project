@@ -1,8 +1,65 @@
 <html>
 	<head>
-		<title>My First Web Application</title>
+		<title>10000 coders programming challenge</title>
+                <link rel="stylesheet" type="text/css" href="my_first_stylesheet.css">
+                <style>
+                    #paragraph_1{
+                          text-align: left;
+                           margin: 15px;
+                    }
+                     #paragraph_2{
+                          magin: 15px;
+                     }
+                </style>
 	</head>
 	<body>
-		<h1>This is my first web application. oh, I'm excited!!!</h1>
+                <div class="box">
+                <img src="download.png"/>
+                </div>
+		<h3 name="abcd">Welcome to 10000 Coders Programming Challenge</h3>
+                <p id="paragraph_1" class="paragraph-1">Hello guys,</p>
+                <p id="paragraph_2" class="paragraph-2">Welcome to the HTML/CSS programming exercise by 10000 coders. This will test your basics in HTML and CSS. You need to recreate the document you are reading now using HTML/CSS.<span style="text-decoration:underline;"> Make sure that the page looks exactly like this document.</span></p>
+                <h4 style="color: blue">Generel Instructions</h4>
+                <ol>
+                    <li> There will be a 15px margin between all elements in the form shown below</li>
+                    <li> Use external CSS for styling</li>
+                    <li> This exercise will cover the following constructs of HTML</li>
+                </ol>
+                <ul style="margin: 15px;">
+                    <li> HTML Form</li>
+                    <li> Text inputs with placeholders</li>
+                    <li> Text area</li>
+                    <li> Password input</li>
+                    <li> Select drop-down box</li>
+                    <li> Radio buttons</li>
+                    <li> Checkbuttons and</li>
+                    <li> Buttons</li>
+                </ul>
+                <h5 style="text-align:center;"> So, Let's get started.All the best !</h5>
+                <label for="fname">Full Name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="spin">Secret Pin:</label>
+                <input type="text" id="spin" name="spin"><br><br>
+                <label for="gender">Gender</label>
+                <input type="radio" id="gender" name="gender">
+                <label for="male">Male</label>
+                <input type="radio" id="gender" name="gender">
+                <label for="female">Female</label><br><br>
+                <label for="expert">I am an expert in</label>
+                <input type="checkbox" id="html" name="html">
+                <label for="html">HTML</label>
+                <input type="checkbox" id="css" name="css">
+                <label for="css">CSS</label><br><br>
+                <label for="study">My Field of Study is</label>
+                <select name="study" id="study">
+                    <option value="branch">select branch using this dropdown</option>
+                    <option value="cse">CSE</option>
+                    <option value="civil">CIVIL</option>
+                    <option value="eee">EEE</option>
+                </select><br><br>
+                <label for="youself">Tell more about youself</label>
+                <textarea id="yourself" name="youself" rows="4" cols="60"> This is the text area. Enter your description.
+                </textarea><br><br>
+                <button style="text-box: blue;">Submit Form</button>
 	</body>
 </html>
